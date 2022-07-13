@@ -4,8 +4,24 @@
   flex-direction: column;
 }
 
-.container h1 {
+.container header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
   margin: 84px 0 24px;
+  width: 50%;
+}
+
+.container header img {
+  border-radius: 30px;
+  height: 60px;
+  margin-left: 7px;
+  width: 60px;
+}
+
+.container header div {
+  align-items: center;
+  display: flex;
 }
 
 .container input {
